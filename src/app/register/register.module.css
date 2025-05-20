@@ -6,27 +6,18 @@
   background: #f5f6fa;
 }
 
-.loginBox {
-  background: #fff;
+.registerBox {
+  background: white;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 1rem auto;
-  width: 80px;
-  height: auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
 .title {
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  color: #2f3640;
 }
 
 .formGroup {
@@ -45,12 +36,6 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
-  transition: border-color 0.2s;
-}
-
-.input:focus {
-  border-color: #3498db;
-  outline: none;
 }
 
 .button {
@@ -63,20 +48,20 @@
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .button:hover {
   background: #2980b9;
 }
 
-.button:disabled {
-  background: #95a5a6;
-  cursor: not-allowed;
-}
-
 .error {
   color: #e74c3c;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.success {
+  color: #27ae60;
   margin-top: 1rem;
   text-align: center;
 }
@@ -91,12 +76,4 @@
   color: #3498db;
   font-weight: 500;
   text-decoration: none;
-  margin-left: 0.25rem;
-  transition: color 0.2s;
 }
-
-.link a:hover {
-  color: #2c3e50;
-}
-
-
