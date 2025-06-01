@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { useAuth } from '../auth'
 import { API_BASE_URL } from '../utils/api'
@@ -91,7 +91,7 @@ export default function LoginPage() {
         {error && <p className={styles.error}>{error}</p>}
 
         <p className={styles.link}>
-          Don’t have an account? <a href="/UserAuthReact/register">Create one</a>
+          Don’t have an account? <Link to="/register">Create one</Link>
         </p>
       </form>
     </div>

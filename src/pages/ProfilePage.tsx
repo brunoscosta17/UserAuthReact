@@ -33,7 +33,7 @@ export default function ProfilePage() {
 
   const handleLogout = () => {
     localStorage.clear();
-    window.location.href = '/UserAuthReact/login';
+    window.location.href = '/UserAuthReact/#/login';
   };
 
   if (!user) return null;
